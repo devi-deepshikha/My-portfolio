@@ -1,0 +1,40 @@
+{% extends "portfolio/base.html" %}
+
+{% load static %}
+
+{% block content %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@1,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Ysabeau+Infant:ital,wght@1,300&display=swap" rel="stylesheet">
+<style>
+    h1{
+        text-align:center;
+        padding:0;
+        margin:0;
+        font-family: 'Mukta', sans-serif;
+    }
+    p{
+        margin:0; 
+        text-align: center;
+        font-family:'Ysabeau Infant', sans-serif;
+    }
+    .name-text{
+        position:relative;
+        top:100px;}
+    .l-text{
+        position:relative;
+        top:10px;
+    }
+    
+</style>
+<div class="name-text">
+    <h1>Arigela Devi Deepshikha Kiran</h1>
+    <div>
+        <p>Undergraduate Student at CMR Institute of Technology</p>
+        <p class="l-text">Welcome to my portfolio! I am Arigela Devi Deepshikha Kiran, an enthusiastic and driven undergraduate student pursuing my education at CMRIT. I am passionate about Programming and Web development, and I am constantly honing my skills to become a skilled professional in this domain. Through my portfolio, I aim to showcase my projects, achievements, and the creative solutions I have developed during my academic journey.
+           Feel free to explore my work and get in touch if you have any inquiries or collaboration opportunities. Thank you for visiting!</p>
+    </div>
+</div>
+
+{% endblock %}

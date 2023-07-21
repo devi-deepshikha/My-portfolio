@@ -1,0 +1,41 @@
+{% extends "portfolio/base.html" %}
+
+{% load static %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap" rel="stylesheet">
+<style>
+.row{
+    position:relative;
+    top:15px;
+}
+.proj1{
+    position:relative;
+    left:5px;
+}
+h1{
+    font-family: 'Assistant', sans-serif;
+    font-size: x-large;
+    position:relative;
+    left:5px;
+}
+.detail{
+    position: relative;
+    left:5px;
+}
+</style>
+<div class="row">
+    {% for project in projects %} 
+    <div class="col-lg-4 col-md-6">
+      <h1><b>{{ project.title}}</b></h1>
+      <img class="proj1" src="{{ project.image.url }}" height="200px" width="350px">
+      <div class="detail">
+          <p style="margin:0">{{ project.description|truncatechars:80}}</p>
+          {% if project.url %}
+             <a href="{{ project.url }}">click here to see my project</a>
+          {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

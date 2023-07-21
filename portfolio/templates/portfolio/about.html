@@ -1,0 +1,52 @@
+{% extends "portfolio/base.html" %}
+
+{% load static %}
+
+{% block content %}
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Ysabeau+Infant:ital,wght@1,300&display=swap" rel="stylesheet">
+<style>
+    .inner-para{
+        font-family:'Ysabeau Infant', sans-serif;
+        padding:30px;
+        padding-top: 0;
+    }
+    .outer-para{
+        text-align: center;
+    }
+    p{
+        margin:0;
+    }
+</style>
+<div class="outer-para">
+    <img src="{% static "portfolio/about-img.jpeg" %}" height="360px" width="280px">
+    <h1><u>About Me</u></h1>
+    <div class="inner-para">
+        <p>Welcome to my portfolio! I'm Devi Deepshikha, a passionate learner and aspiring web developer. I'm on an exciting journey to acquire the skills and knowledge needed to create dynamic and engaging web applications. Currently, I'm focused on learning Django and Python, two powerful tools that are driving the modern web development landscape.
+        
+            As a dedicated student of web development, I'm eager to apply my growing expertise to build innovative and user-friendly websites. I'm immersing myself in the intricacies of Django's framework and harnessing the flexibility of Python to develop efficient and functional web applications.
+            
+            My learning process includes engaging in practical projects and coursework to gain hands-on experience. By working on real-world challenges, I'm acquiring a deeper understanding of essential web development principles, honing my skills in front-end technologies, and delving into the complexities of back-end logic.
+            
+            I'm committed to continuous improvement and growth. I actively seek opportunities to collaborate with experienced professionals, participate in coding communities, and engage in online forums where I can exchange knowledge and stay up-to-date with industry best practices.
+            
+            Looking ahead, I am excited to expand my horizons into the fascinating fields of Artificial Intelligence and Machine Learning (AI/ML).
+        </p>
+        <br>
+        <p>In the future, I envision myself integrating AI/ML technologies into my web development projects to create even more innovative and impactful applications. From predictive analytics to natural language processing, I am eager to explore the vast array of AI/ML techniques and their practical applications in various industries.
+        
+            If you're seeking a motivated learner who brings enthusiasm, a strong work ethic, and an aspiration to explore AI/ML in web development projects, I would be thrilled to connect with you. Let's explore how my dedication to continuous improvement, my growing proficiency in Django and Python, and my future aspirations in AI/ML can add value to your projects.
+        </p>
+        <br>
+        <p>Beyond technical proficiency, I'm also a person with diverse interests and hobbies. When I'm not immersed in coding and web development, I find joy and inspiration in my artistic pursuits. Drawing and painting are my creative outlets and beloved hobbies. Through sketching and painting, I can express my emotions, capture the beauty of the world, and bring ideas to life on canvas.
+
+            These artistic endeavors have had a profound impact on my approach to web development. They have nurtured my attention to detail, honed my sense of aesthetics, and fostered my ability to think creatively.
+        </p>
+        <br>
+        <p>
+            Thank you for visiting my portfolio, and I look forward to the opportunity to learn, grow, and create together.
+        </p>
+        
+    </div>
+</div>
+
+{% endblock %}

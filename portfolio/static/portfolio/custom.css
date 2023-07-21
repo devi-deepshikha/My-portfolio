@@ -1,0 +1,13 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+.c-text{
+    text-align: center;
+}
+.c-img{
+    text-align: center;
+}
+.img{
+    height:20px;
+    width: 20px;
+}
