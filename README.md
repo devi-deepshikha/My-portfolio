@@ -2,9 +2,10 @@
 1.Download the zip file form github.
 2.File is visible in your downloads.
 3.Right click on the file,click on extract files or extract here.
-4.Files will be extracted.
+4.File will be extracted (as My-portfolio-master).
 5.Open Anaconda Prompt and Run the below commands
-- cd filename //eg:cd my-portfolio
+- cd downloads
+- cd filename //eg:cd My-portfolio master
 - python manage.py runserver (To run the app).
 
    
