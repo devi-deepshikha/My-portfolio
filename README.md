@@ -7,5 +7,6 @@
 - cd downloads
 - cd filename //eg:cd My-portfolio master
 - python manage.py runserver (To run the app).
+- copy the localhost and run in the browser.
 
    
