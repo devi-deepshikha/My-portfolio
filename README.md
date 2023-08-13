@@ -9,4 +9,7 @@
 - python manage.py runserver (To run the app).
 - copy the localhost and run in the browser.
 
-   
+#output
+#This is how my portfolio looks when you run the code
+
+![Screenshot (53)](https://github.com/devi-deepshikha/My-portfolio/assets/121997123/52bdc141-596d-44eb-b325-39e953199dee)
